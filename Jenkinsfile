@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage("Checkout Code") {
             steps {
-                git(url: 'https://github.com/dev-hack95/health_insurance_cross_sell_prediction', branch: 'dev-bac')
+                git(url: 'https://github.com/lucifer14226/health_insurance_cross_sell_prediction', branch: 'dev-bac')
             }
         }
 
